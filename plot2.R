@@ -1,6 +1,6 @@
 ## plot2.R
 
-## Plots  
+## Plots Global Active Power in kilowatts over time
 ## of the individual household electric power consumption data set 
 ## for the dates 2/1/07 - 2/2/07
 

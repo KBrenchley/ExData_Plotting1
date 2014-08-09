@@ -20,8 +20,14 @@ rm(electric)
 plot_days$Time <- as.character(plot_days$Time)
 plot_days$Date <- strptime(paste(plot_days$Date,plot_days$Time), "%Y-%m-%d %H:%M:%S")
 
-
 ## clean up Global Active Power to make it numeric
 
 plot_days$Global_active_power <- as.numeric(as.character(plot_days$Global_active_power))
+
+## clean up the Sub_metering_n columns to make them numeric
+
+plot_days$Sub_metering_1 <- as.numeric(as.character(plot_days$Sub_metering_1))
+plot_days$Sub_metering_2 <- as.numeric(as.character(plot_days$Sub_metering_2))
+plot_days$Sub_metering_3 <- as.numeric(as.character(plot_days$Sub_metering_3))
+
 
