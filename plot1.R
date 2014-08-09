@@ -1,3 +1,5 @@
+plot1 <- function() {
+
 ## plot1.R
 
 ## Plots a histogram of the Global Active Power in kilowatts of the individual
@@ -11,3 +13,4 @@ hist(plot_days$Global_active_power, main = "Global Active Power", xlab = "Global
      ylab = "Frequency", col="Red")
 
 dev.off()
+}

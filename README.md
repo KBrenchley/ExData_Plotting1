@@ -6,7 +6,11 @@ To use the plots for this exercise, use the files in this order:
 loadElectric.R -- loads the data, subsets out the right segment, and cleans up
 the data to make sure the correct classes are used
 
-plot1.R - plot4.R -- creates the plots and puts them in PNG files
+plot1.R -> plot4.R -- creates the plots and puts them in PNG files
+
+All of these are set up to be functions, but can also be used as scripts.
+The plotN functions don't call loadElectric(), though, to keep the plots
+faster to run.
 
 
 ## Introduction

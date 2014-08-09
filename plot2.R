@@ -1,3 +1,5 @@
+plot2 <- function() {}
+
 ## plot2.R
 
 ## Plots Global Active Power in kilowatts over time
@@ -12,3 +14,4 @@ plot(plot_days$Date, plot_days$Global_active_power, type = "l", lty = "solid", m
      ylab = "Global Active Power (kilowatts)", col="black")
 
 dev.off()
+}

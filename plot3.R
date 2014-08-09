@@ -1,3 +1,4 @@
+plot3 <- function() {
 ## plot3.R
 
 ## Plots the thre Submetering variables over time
@@ -18,3 +19,4 @@ legend("topright",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
        lty = "solid", col = c("black", "red", "blue"))
 
 dev.off()
+}
